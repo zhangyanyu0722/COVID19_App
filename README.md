@@ -9,7 +9,7 @@ Stretch goal:
 - Display data per Province
 - User can put their address and track CODVID-19 in their neighborhood (Only in countries where regional data is provided)
 
-# Process
+## Process
 - Step 1: [Setup your REACT Native Environment]
 
 

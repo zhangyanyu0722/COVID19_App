@@ -31,8 +31,8 @@ Install the Expo client app on your iOS or Android phone and connect to the same
 ### Step 2: Go through [REACT native Tutorial]
 - In accordance with the ancient traditions of our people, we must first build an app that does nothing except say "Hello, world!". Here it is:
 <p align="middle">
-  <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/3.png" length="600" width="400" />
-  <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/1.png" length="600" width="200" /> 
+  <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/3.png" height="600" width="400" />
+  <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/1.png" height="600" width="300" /> 
 </p>
 
 

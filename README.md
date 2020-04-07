@@ -29,7 +29,11 @@ npm start # you can also use: expo start
 Install the Expo client app on your iOS or Android phone and connect to the same wireless network as your computer. On Android, use the Expo app to scan the QR code from your terminal to open your project. On iOS, use the built-in QR code scanner of the Camera app.
 
 ### Step 2: Go through [REACT native Tutorial]
-
+- In accordance with the ancient traditions of our people, we must first build an app that does nothing except say "Hello, world!". Here it is:
+<p align="middle">
+  <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/3.png" width="400" />
+  <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/1.png" width="400" /> 
+</p>
 
 
 ### Step 3: Develop use case to display a map. [GitHub location]

@@ -17,10 +17,10 @@ npm install -g expo-cli
 ```
 - After install the tools, next is to start first project
 ```
-expo init AwesomeProject
+expo init FirstProject
 ```
 ```
-cd AwesomeProject
+cd FirstProject
 ```
 ```
 npm start # you can also use: expo start

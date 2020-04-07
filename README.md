@@ -11,7 +11,14 @@ Stretch goal:
 
 ## Process
 - Step 1: [Setup your REACT Native Environment]
-
+-- Assuming that you have [Node 12 LTS] or greater installed, you can use npm to install the Expo CLI command line utility:
+```
+npm install -g expo-cli
+```
+-- After install the tools, next is to start first project
+```expo init AwesomeProject```
+```cd AwesomeProject```
+```npm start # you can also use: expo start```
 
 - Step 2: Go through [REACT native Tutorial]
 
@@ -28,5 +35,6 @@ Stretch goal:
 [CODVID-19 API]:https://covid19api.com/
 [(Documentation using postman)]:https://documenter.getpostman.com/view/10808728/SzS8rjbc?version=latest
 [Setup your REACT Native Environment]:https://reactnative.dev/docs/environment-setup
+[Node 12 LTS]:https://nodejs.org/en/download/
 [REACT native Tutorial]:https://reactnative.dev/docs/tutorial
 [GitHub location]:https://github.com/react-native-community/react-native-maps

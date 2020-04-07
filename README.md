@@ -25,8 +25,11 @@ cd FirstProject
 ```
 npm start # you can also use: expo start
 ```
+- Running your React Native application
+Install the Expo client app on your iOS or Android phone and connect to the same wireless network as your computer. On Android, use the Expo app to scan the QR code from your terminal to open your project. On iOS, use the built-in QR code scanner of the Camera app.
 
 ### Step 2: Go through [REACT native Tutorial]
+
 
 
 ### Step 3: Develop use case to display a map. [GitHub location]

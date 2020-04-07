@@ -35,6 +35,18 @@ Install the Expo client app on your iOS or Android phone and connect to the same
   <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/1.png" height="400" width="200" /> 
 </p>
 
+- Most components can be customized when they are created, with different parameters. These creation parameters are called props.
+Your own components can also use props. This lets you make a single component that is used in many different places in your app, with slightly different properties in each place. Refer to props.{NAME} in your functional components or this.props.{NAME} in your class components. Here's an example:
+<p align="middle">
+  <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/Screen%20Shot%202020-04-07%20at%204.48.53%20PM.png" height="400" width="250" />
+  <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/4.png" height="400" width="200" /> 
+</p>
+
+- In the following example we will show the same above counter example using classes.
+<p align="middle">
+  <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/Screen%20Shot%202020-04-07%20at%204.49.10%20PM.png" height="400" width="250" />
+  <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/5.png" height="400" width="200" /> 
+</p>
 
 ### Step 3: Develop use case to display a map. [GitHub location]
 

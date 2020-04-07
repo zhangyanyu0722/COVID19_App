@@ -10,26 +10,32 @@ Stretch goal:
 - User can put their address and track CODVID-19 in their neighborhood (Only in countries where regional data is provided)
 
 ## Process
-- Step 1: [Setup your REACT Native Environment]
--- Assuming that you have [Node 12 LTS] or greater installed, you can use npm to install the Expo CLI command line utility:
+### Step 1: [Setup your REACT Native Environment]
+- Assuming that you have [Node 12 LTS] or greater installed, you can use npm to install the Expo CLI command line utility:
 ```
 npm install -g expo-cli
 ```
--- After install the tools, next is to start first project
-```expo init AwesomeProject```
-```cd AwesomeProject```
-```npm start # you can also use: expo start```
+- After install the tools, next is to start first project
+```
+expo init AwesomeProject
+```
+```
+cd AwesomeProject
+```
+```
+npm start # you can also use: expo start
+```
 
-- Step 2: Go through [REACT native Tutorial]
+### Step 2: Go through [REACT native Tutorial]
 
 
-- Step 3: Develop use case to display a map. [GitHub location]
+### Step 3: Develop use case to display a map. [GitHub location]
 
 
-- Step 4: On separate branch, exercise the [CODVID-19 API] [(Documentation using postman)] and display the data in your application as text. Be fancy! Style your results.
+### Step 4: On separate branch, exercise the [CODVID-19 API] [(Documentation using postman)] and display the data in your application as text. Be fancy! Style your results.
 
 
-- Step 5: Overlay the data on the maps.
+### Step 5: Overlay the data on the maps.
  
  
 [CODVID-19 API]:https://covid19api.com/

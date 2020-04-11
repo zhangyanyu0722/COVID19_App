@@ -72,7 +72,7 @@ Your own components can also use props. This lets you make a single component th
 <p align="middle">
   <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/Screen%20Shot%202020-04-10%20at%208.50.38%20PM.png" width="600">
 </p>
-Use your own google_api_key here, for more detail, visit : [google_api]
+Use your own google_api_key here, for more detail, visit : [google api setup]
 <p align="middle">
   <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/Screen%20Shot%202020-04-10%20at%208.51.02%20PM.png" width="600"> 
 </p>
@@ -100,5 +100,5 @@ Use your own google_api_key here, for more detail, visit : [google_api]
 [See App_hello.js Here]:https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/App_hello.js
 [See App_prop.js Here]:https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/App_prop.js
 [See App_class.js Here]:https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/App_class.js
-[google_api]:https://developers.google.com/maps/documentation/ios-sdk/get-api-key
+[google api setup]:https://developers.google.com/maps/documentation/ios-sdk/get-api-key
 

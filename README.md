@@ -95,6 +95,13 @@ curl --location --request GET https://api.covid19api.com/live/country/united-sta
 <p align="middle">
   <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/postman.png" width="800" /> 
 </p>
+- Or I can get all of the cases in one day in united states
+```
+curl --location --request GET https://api.covid19api.com/dayone/country/united-states/status/confirmed
+```
+<p align="middle">
+  <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/cases.png" width="800" /> 
+</p>
 
 
 ### Step 5: Overlay the data on the maps.

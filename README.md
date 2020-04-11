@@ -49,18 +49,37 @@ Your own components can also use props. This lets you make a single component th
 </p>
 
 ### Step 3: Develop use case to display a map. [GitHub location] [Done]
-- Install and set up React Native application :```npm install -g react-native-cli```, Now you can create your project, simply using ```react-native init ReactNativeMaps```
+#### Install and set up React Native application
+- If you haven’t installed the React Native command line interface, run: ```npm install -g react-native-cli``` 
+- Now you can create your project, simply using ```react-native init ReactNativeMaps```
 - After installing, Now you can try to run your app, ```react-native run-ios```
-- Add and Link react-native-maps package : Now let’s install react-native-map: ```npm install --save react-native-maps``` after installing the package you should link it to your native apps: ```react-native link react-native-maps```.
-- Set up Apple Maps (iOS):
+#### Add and Link react-native-maps package
+- Now let’s install react-native-map: ```npm install --save react-native-maps```
+- After installing the package you should link it to your native apps: ```react-native link react-native-maps```.
+#### Set up Apple Maps (iOS):
+- It will be easier if we set them up separately by platform, so let’s first do it on iOS. Before integrating Google Maps, we will check if Apple Maps works correctly. Add the following code to your current rendering component where you want to render your MapView.
 <p align="middle">
   <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/apple1.png" height="300" width="200" />
-  <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/apple.png" height="400" width="250" /> 
+  <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/apple.png" height="400" width="200" /> 
 </p>
-- Install Cocoapods and ‘GoogleMaps’ package (iOS) : After adding the Google_API_key to the AppDelegate.m and install the pod.
+- So, as you can see, by default Apple Maps is already working. More than that, if you linked everything correctly and enabled the user location, it’s actually done a lot of things for us (the user permission for the location with a default message). If you came from native iOS development, then you probably know what is an info.plist file.
+
+#### Install Cocoapods and ‘GoogleMaps’ package (iOS)
+- Run ```sudo gem install cocoapods``` to install the Cocoapods.
+- Navigate to your **iOS** folder in React Native app and run ```pod install```
+- Then we need to navigate to **AirGoogleMaps** folder from **node_modules** and add all to the **ios**
+- After that, Navigate to your **iOS/ReactNativeMaps/AppDelegate.m** file and add the code below into it.
+<p align="middle">
+  <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/Screen%20Shot%202020-04-10%20at%208.50.38%20PM.png">
+</p>
+Use your own google_api_key here, for more detail, visit : [google_api]
+<p align="middle">
+  <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/Screen%20Shot%202020-04-10%20at%208.51.02%20PM.png" /> 
+</p>
+- Now run your iOS app. And you will get Google Maps.
 <p align="middle">
   <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/google1.png" height="300" width="200" />
-  <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/google.png" height="400" width="250" /> 
+  <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/google.png" height="400" width="200" /> 
 </p>
 
 
@@ -79,4 +98,5 @@ Your own components can also use props. This lets you make a single component th
 [See App_hello.js Here]:https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/App_hello.js
 [See App_prop.js Here]:https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/App_prop.js
 [See App_class.js Here]:https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/App_class.js
+[google_api];https://developers.google.com/maps/documentation/ios-sdk/get-api-key
 

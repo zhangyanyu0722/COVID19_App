@@ -54,13 +54,13 @@ Your own components can also use props. This lets you make a single component th
 - Add and Link react-native-maps package : Now let’s install react-native-map: ```npm install --save react-native-maps``` after installing the package you should link it to your native apps: ```react-native link react-native-maps```.
 - Set up Apple Maps (iOS):
 <p align="middle">
-  <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/apple1.png" height="400" width="250" />
-  <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/apple.png" height="400" width="200" /> 
+  <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/apple1.png" height="300" width="200" />
+  <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/apple.png" height="400" width="250" /> 
 </p>
 - Install Cocoapods and ‘GoogleMaps’ package (iOS) : After adding the Google_API_key to the AppDelegate.m and install the pod.
 <p align="middle">
-  <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/google1.png" height="400" width="250" />
-  <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/google.png" height="400" width="200" /> 
+  <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/google1.png" height="300" width="200" />
+  <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/google.png" height="400" width="250" /> 
 </p>
 
 

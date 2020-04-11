@@ -70,13 +70,15 @@ Your own components can also use props. This lets you make a single component th
 - Then we need to navigate to **AirGoogleMaps** folder from **node_modules** and add all to the **ios**
 - After that, Navigate to your **iOS/ReactNativeMaps/AppDelegate.m** file and add the code below into it.
 <p align="middle">
-  <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/Screen%20Shot%202020-04-10%20at%208.50.38%20PM.png">
+  <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/Screen%20Shot%202020-04-10%20at%208.50.38%20PM.png" width="600">
 </p>
 Use your own google_api_key here, for more detail, visit : [google_api]
 <p align="middle">
-  <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/Screen%20Shot%202020-04-10%20at%208.51.02%20PM.png" /> 
+  <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/Screen%20Shot%202020-04-10%20at%208.51.02%20PM.png" width="600"> 
 </p>
+
 - Now run your iOS app. And you will get Google Maps.
+
 <p align="middle">
   <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/google1.png" height="300" width="200" />
   <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/google.png" height="400" width="200" /> 
@@ -98,5 +100,5 @@ Use your own google_api_key here, for more detail, visit : [google_api]
 [See App_hello.js Here]:https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/App_hello.js
 [See App_prop.js Here]:https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/App_prop.js
 [See App_class.js Here]:https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/App_class.js
-[google_api];https://developers.google.com/maps/documentation/ios-sdk/get-api-key
+[google_api]:https://developers.google.com/maps/documentation/ios-sdk/get-api-key
 

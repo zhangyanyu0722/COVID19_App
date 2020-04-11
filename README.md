@@ -88,6 +88,13 @@ Your own components can also use props. This lets you make a single component th
 
 
 ### Step 4: On separate branch, exercise the [CODVID-19 API] [(Documentation using postman)] and display the data in your application as text. Be fancy! Style your results.
+- In order to get the increasement informantion, I use the [CODVID-19 API] to get the confirmed number by states.
+```
+curl --location --request GET https://api.covid19api.com/live/country/united-states/status/confirmed/date/2020-04-10T20:00:00Z
+```
+<p align="middle">
+  <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/postman.png" width="800" /> 
+</p>
 
 
 ### Step 5: Overlay the data on the maps.

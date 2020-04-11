@@ -72,7 +72,9 @@ Your own components can also use props. This lets you make a single component th
 <p align="middle">
   <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/Screen%20Shot%202020-04-10%20at%208.50.38%20PM.png" width="600">
 </p>
+
 Use your own google_api_key here, for more detail, visit : [google api setup]
+
 <p align="middle">
   <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/Screen%20Shot%202020-04-10%20at%208.51.02%20PM.png" width="600"> 
 </p>

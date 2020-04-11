@@ -93,14 +93,17 @@ Your own components can also use props. This lets you make a single component th
 curl --location --request GET https://api.covid19api.com/live/country/united-states/status/confirmed/date/2020-04-10T20:00:00Z
 ```
 <p align="middle">
-  <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/postman.png" width="800" /> 
+  <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/postman.png" height="400" width="500" /> 
 </p>
+
 - Or I can get all of the cases in one day in united states
+
 ```
 curl --location --request GET https://api.covid19api.com/dayone/country/united-states/status/confirmed
 ```
+
 <p align="middle">
-  <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/cases.png" width="800" /> 
+  <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/cases.png" height="400" width="500" /> 
 </p>
 
 

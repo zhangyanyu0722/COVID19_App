@@ -10,7 +10,7 @@ Stretch goal:
 - User can put their address and track CODVID-19 in their neighborhood (Only in countries where regional data is provided)
 
 ## Process
-### Step 1: [Setup your REACT Native Environment]
+### Step 1: [Setup your REACT Native Environment] [Done]
 - Assuming that you have [Node 12 LTS] or greater installed, you can use npm to install the Expo CLI command line utility:
 ```
 npm install -g expo-cli
@@ -28,7 +28,7 @@ npm start # you can also use: expo start
 - Running your React Native application
 Install the Expo client app on your iOS or Android phone and connect to the same wireless network as your computer. On Android, use the Expo app to scan the QR code from your terminal to open your project. On iOS, use the built-in QR code scanner of the Camera app.
 
-### Step 2: Go through [REACT native Tutorial]
+### Step 2: Go through [REACT native Tutorial] [Done]
 - In accordance with the ancient traditions of our people, we must first build an app that does nothing except say "Hello, world!". [See App_hello.js Here]:
 <p align="middle">
   <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/3.png" height="400" width="250" />
@@ -48,7 +48,20 @@ Your own components can also use props. This lets you make a single component th
   <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/5.png" height="400" width="200" /> 
 </p>
 
-### Step 3: Develop use case to display a map. [GitHub location]
+### Step 3: Develop use case to display a map. [GitHub location] [Done]
+- Install and set up React Native application :```npm install -g react-native-cli```, Now you can create your project, simply using ```react-native init ReactNativeMaps```
+- After installing, Now you can try to run your app, ```react-native run-ios```
+- Add and Link react-native-maps package : Now let’s install react-native-map: ```npm install --save react-native-maps``` after installing the package you should link it to your native apps: ```react-native link react-native-maps```.
+- Set up Apple Maps (iOS):
+<p align="middle">
+  <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/apple1.png" height="400" width="250" />
+  <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/apple.png" height="400" width="200" /> 
+</p>
+- Install Cocoapods and ‘GoogleMaps’ package (iOS) : After adding the Google_API_key to the AppDelegate.m and install the pod.
+<p align="middle">
+  <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/google1.png" height="400" width="250" />
+  <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/google.png" height="400" width="200" /> 
+</p>
 
 
 ### Step 4: On separate branch, exercise the [CODVID-19 API] [(Documentation using postman)] and display the data in your application as text. Be fancy! Style your results.

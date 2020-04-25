@@ -107,10 +107,16 @@ curl --location --request GET https://api.covid19api.com/dayone/country/united-s
 </p>
 
 ### Step 5: Overlay the data on the maps. [Done]
+Version 1:
 - Click the right bottom button to show the cases near your current location. And you can see the result as following
 <p align="middle">
   <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/result.png" height="400" width="200">
   <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/result2.png" height="400" width="200"> 
+</p>
+version 2:
+<p align="middle">
+  <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/a.png" height="400" width="200">
+  <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/b.png" height="400" width="200"> 
 </p>
  
 [CODVID-19 API]:https://covid19api.com/

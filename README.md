@@ -113,7 +113,19 @@ Version 1:
   <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/result.png" height="400" width="200">
   <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/result2.png" height="400" width="200"> 
 </p>
+
 version 2:
+How to run:
+- In this version, I added three markers on the map, you can get the results by clicking the markers. 
+```
+git clone https://github.com/BUEC500C1/codvid-app-zhangyanyu0722.git
+```
+```
+cd codvid-app-zhangyanyu0722/Step.4 & 5/ReactNativeMaps
+```
+```
+react-native run-ios
+```
 <p align="middle">
   <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/a.png" height="400" width="200">
   <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/b.png" height="400" width="200"> 

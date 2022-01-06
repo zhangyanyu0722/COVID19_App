@@ -9,6 +9,10 @@ Stretch goal:
 - Display data per Province
 - User can put their address and track CODVID-19 in their neighborhood (Only in countries where regional data is provided)
 
+## Authors
+- Yanyu Zhang : zhangya@bu.edu
+- Mengyuan Liu : liumengyuan23@gmail.com
+
 ## Process
 ### Step 1: [Setup your REACT Native Environment] [Done]
 - Assuming that you have [Node 12 LTS] or greater installed, you can use npm to install the Expo CLI command line utility:
@@ -31,21 +35,21 @@ Install the Expo client app on your iOS or Android phone and connect to the same
 ### Step 2: Go through [REACT native Tutorial] [Done]
 - In accordance with the ancient traditions of our people, we must first build an app that does nothing except say "Hello, world!". [See App_hello.js Here]:
 <p align="middle">
-  <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/3.png" height="400" width="250" />
-  <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/1.png" height="400" width="200" /> 
+  <img src="https://github.com/zhangyanyu0722/COVID19_App/blob/master/images/3.png" height="400" width="250" />
+  <img src="https://github.com/zhangyanyu0722/COVID19_App/blob/master/images/1.png" height="400" width="200" /> 
 </p>
 
 - Most components can be customized when they are created, with different parameters. These creation parameters are called props.
 Your own components can also use props. This lets you make a single component that is used in many different places in your app, with slightly different properties in each place. Refer to props.{NAME} in your functional components or this.props.{NAME} in your class components. [See App_prop.js Here]
 <p align="middle">
-  <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/Screen%20Shot%202020-04-07%20at%204.48.53%20PM.png" height="400" width="250" />
-  <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/4.png" height="400" width="200" /> 
+  <img src="https://github.com/zhangyanyu0722/COVID19_App/blob/master/images/Screen%20Shot%202020-04-07%20at%204.48.53%20PM.png" height="400" width="250" />
+  <img src="https://github.com/zhangyanyu0722/COVID19_App/blob/master/images/4.png" height="400" width="200" /> 
 </p>
 
 - In the following example we will show the same above counter example using classes.[See App_class.js Here]
 <p align="middle">
-  <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/Screen%20Shot%202020-04-07%20at%204.49.10%20PM.png" height="400" width="250" />
-  <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/5.png" height="400" width="200" /> 
+  <img src="https://github.com/zhangyanyu0722/COVID19_App/blob/master/images/Screen%20Shot%202020-04-07%20at%204.49.10%20PM.png" height="400" width="250" />
+  <img src="https://github.com/zhangyanyu0722/COVID19_App/blob/master/images/5.png" height="400" width="200" /> 
 </p>
 
 ### Step 3: Develop use case to display a map. [GitHub location] [Done]
@@ -59,8 +63,8 @@ Your own components can also use props. This lets you make a single component th
 #### Set up Apple Maps (iOS):
 - It will be easier if we set them up separately by platform, so let’s first do it on iOS. Before integrating Google Maps, we will check if Apple Maps works correctly. Add the following code to your current rendering component where you want to render your MapView.
 <p align="middle">
-  <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/apple1.png" height="300" width="200" />
-  <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/apple.png" height="400" width="200" /> 
+  <img src="https://github.com/zhangyanyu0722/COVID19_App/blob/master/images/apple1.png" height="300" width="200" />
+  <img src="https://github.com/zhangyanyu0722/COVID19_App/blob/master/images/apple.png" height="400" width="200" /> 
 </p>
 - So, as you can see, by default Apple Maps is already working. More than that, if you linked everything correctly and enabled the user location, it’s actually done a lot of things for us (the user permission for the location with a default message). If you came from native iOS development, then you probably know what is an info.plist file.
 
@@ -70,20 +74,20 @@ Your own components can also use props. This lets you make a single component th
 - Then we need to navigate to **AirGoogleMaps** folder from **node_modules** and add all to the **ios**
 - After that, Navigate to your **iOS/ReactNativeMaps/AppDelegate.m** file and add the code below into it.
 <p align="middle">
-  <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/Screen%20Shot%202020-04-10%20at%208.50.38%20PM.png" width="600">
+  <img src="https://github.com/zhangyanyu0722/COVID19_App/blob/master/images/Screen%20Shot%202020-04-10%20at%208.50.38%20PM.png" width="600">
 </p>
 
 ***Use your own google_api_key here, for more detail, visit : [google api setup]***
 
 <p align="middle">
-  <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/Screen%20Shot%202020-04-10%20at%208.51.02%20PM.png" width="600"> 
+  <img src="https://github.com/zhangyanyu0722/COVID19_App/blob/master/images/Screen%20Shot%202020-04-10%20at%208.51.02%20PM.png" width="600"> 
 </p>
 
 - Now run your iOS app. And you will get Google Maps.
 
 <p align="middle">
-  <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/google1.png" height="300" width="200" />
-  <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/google.png" height="400" width="200" /> 
+  <img src="https://github.com/zhangyanyu0722/COVID19_App/blob/master/images/google1.png" height="300" width="200" />
+  <img src="https://github.com/zhangyanyu0722/COVID19_App/blob/master/images/google.png" height="400" width="200" /> 
 </p>
 
 
@@ -93,7 +97,7 @@ Your own components can also use props. This lets you make a single component th
 curl --location --request GET https://api.covid19api.com/live/country/united-states/status/confirmed/date/2020-04-10T20:00:00Z
 ```
 <p align="middle">
-  <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/postman.png" height="300" width="500" > 
+  <img src="https://github.com/zhangyanyu0722/COVID19_App/blob/master/images/postman.png" height="300" width="500" > 
 </p>
 
 - Or I can get all of the cases in one day in united states
@@ -103,32 +107,32 @@ curl --location --request GET https://api.covid19api.com/dayone/country/united-s
 ```
 
 <p align="middle">
-  <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/cases.png" height="300" width="500" > 
+  <img src="https://github.com/zhangyanyu0722/COVID19_App/blob/master/images/cases.png" height="300" width="500" > 
 </p>
 
 ### Step 5: Overlay the data on the maps. [Done]
 Version 1:
 - Click the right bottom button to show the cases near your current location. And you can see the result as following
 <p align="middle">
-  <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/result.png" height="400" width="200">
-  <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/result2.png" height="400" width="200"> 
+  <img src="https://github.com/zhangyanyu0722/COVID19_App/blob/master/images/result.png" height="400" width="200">
+  <img src="https://github.com/zhangyanyu0722/COVID19_App/blob/master/images/result2.png" height="400" width="200"> 
 </p>
 
 version 2:
 How to run:
 - In this version, I added three markers on the map, you can get the results by clicking the markers. 
 ```
-git clone https://github.com/BUEC500C1/codvid-app-zhangyanyu0722.git
+git clone https://github.com/zhangyanyu0722/COVID19_App.git
 ```
 ```
-cd codvid-app-zhangyanyu0722/Step.4 & 5/ReactNativeMaps
+cd COVID19_App/Step.4 & 5/ReactNativeMaps
 ```
 ```
 react-native run-ios
 ```
 <p align="middle">
-  <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/a.png" height="400" width="200">
-  <img src="https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/images/b.png" height="400" width="200"> 
+  <img src="https://github.com/zhangyanyu0722/COVID19_App/blob/master/images/a.png" height="400" width="200">
+  <img src="https://github.com/zhangyanyu0722/COVID19_App/blob/master/images/b.png" height="400" width="200"> 
 </p>
  
 [CODVID-19 API]:https://covid19api.com/
@@ -137,8 +141,8 @@ react-native run-ios
 [Node 12 LTS]:https://nodejs.org/en/download/
 [REACT native Tutorial]:https://reactnative.dev/docs/tutorial
 [GitHub location]:https://github.com/react-native-community/react-native-maps
-[See App_hello.js Here]:https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/App_hello.js
-[See App_prop.js Here]:https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/App_prop.js
-[See App_class.js Here]:https://github.com/BUEC500C1/codvid-app-zhangyanyu0722/blob/master/App_class.js
+[See App_hello.js Here]:https://github.com/zhangyanyu0722/COVID19_App/blob/master/App_hello.js
+[See App_prop.js Here]:https://github.com/zhangyanyu0722/COVID19_App/blob/master/App_prop.js
+[See App_class.js Here]:https://github.com/zhangyanyu0722/COVID19_App/blob/master/App_class.js
 [google api setup]:https://developers.google.com/maps/documentation/ios-sdk/get-api-key
 
